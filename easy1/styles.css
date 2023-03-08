@@ -1,0 +1,209 @@
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: white;
+}
+.navbar-toggler{
+    border: none !important;
+    
+}
+.navbar-toggler:hover{
+    border: none;
+}
+.navbar-brand img{
+    height: 40px;
+    width: 40px;
+}
+.navbar-nav{
+    float: right;
+    padding: 20px 0;
+    text-align: left;
+    margin-left: auto;
+}
+.nav-item{
+    padding: auto;
+    align-items: left ;
+    
+}
+.nav-link{
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+}
+.nav-link:hover{
+    color: blue;
+
+}
+
+
+#Slider{
+    width: 100%;
+}
+.carousel-caption{
+   
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+}
+.carousel-caption h5{
+    color: white;
+    font-size: 42px;
+}
+/*----------About-----*/
+
+.container{
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.aboutContent p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+
+.button1{
+    color: white;
+    background-color: blue;
+    border-color: blue;
+    border-radius: 5px;
+
+}
+.button1:hover{
+background-color: rgb(20, 20, 216);
+border-color:rgb(20, 20, 216);
+
+}
+.progress{
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.progress-bar{
+    border-radius: 15px;
+}
+.skill p{
+    margin-bottom: 6px;
+}
+
+/*________OUR SERVICES_____*/
+
+#services{
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)) , url(images/img4.jpg);
+    background-size: cover;
+    color: #efefef;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+#services h1{
+    text-align: center;
+    padding-top: -10px;
+    padding-bottom: 30px;
+}
+#services h1::after{
+    content: '';
+    display: block;
+    background: #efefef;
+    width: 170px;
+    height: 5px;
+    margin: 20px auto 5px;
+}
+#services h2{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.services{
+    margin-top: 40px;
+}
+.icons::before{
+   align-self: center;
+}
+.icons{
+    width: 80px;
+    height: 80px;
+    font-size: 40px;
+    padding: 10px;
+    margin: 20px auto;
+    border: 1px solid #fff;
+    border-radius: 50%;
+   
+}
+#services p{
+    color: #d9d2d2 !important;
+    font-size: 14px;
+    
+
+}
+#services .col-md-3:hover{
+    background-color: rgb(87, 72, 244);
+    transition: 0.5s;
+    cursor: pointer;
+}
+/*________TEAM___*/
+#team h1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+#team h1::after{
+    content: '';
+    display: block;
+    background: #2b6be9;
+    width: 170px;
+    height: 5px;
+    margin: 20px auto 5px;
+
+}
+
+#team .imageIcon:hover{
+    filter: none;
+    cursor: pointer;
+    transition: 0.7s;
+}
+#team h2{
+    color: #2b6be9;
+    padding-top: 20px;
+    
+}
+#team1{
+    background-image: url("images/img5.jpg");
+}
+#team2{
+    background-image: url(images/img6.jpg);
+}
+.imageIcon{
+    
+    height: 40vh; 
+    background-size: cover;
+    filter: grayscale(1);
+    justify-content: center;
+    align-items: flex-end;
+    display: flex;
+    
+}
+
+/* .imageIcon img */
+
+#team .col-md-3{
+    text-align: center;
+    margin: 20px auto;
+    cursor: pointer;
+}
+ .imageIcon .fa-brands{
+    filter: none;
+    padding: 10px ;
+    border:1px solid none;
+    border-radius: 100%;
+    background-color: #efefef;
+    margin-right: 10px;
+    opacity: 0.5;
+    color: #e34612;
+    
+    
+}
+.imageIcon .fa-brands:hover{
+    color: #23da84;
+}
